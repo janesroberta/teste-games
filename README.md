@@ -33,15 +33,15 @@ Tabela de conteúdos
 </h4>
 
 <h4 align="center"> 
-Link para o projeto: <a href="https://teste-games.vercel.app/jogos" >🔗</a>
+Link para o projeto: <a href="https://teste-games.vercel.app/jogos" >🔗CLIQUE AQUI</a>
 </h4>
 
 ### Features
 
 - [x] Exibir jogos
-- [x] Permitir notas
+- [x] Permitir dar nota para o jogo utilizando estrelas
 - [x] Permitir marcar como "played", "playing" ou "wanna play"
-- [x] Permitir marcar como "played", "playing" ou "wanna play"
+- [x] Filtros
 
 ### Como usar
 
