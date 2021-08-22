@@ -22,7 +22,7 @@ Tabela de conteúdos
     <a href="https://nextjs.org/">🔗 NextJs</a>
 </h4>
 
-<p align="center">🚀 Projeto desenvolvido para um teste</p>
+<p align="center">🚀 Projeto desenvolvido para o teste de estágio da APPMASTERS</p>
 
 <h4 align="center"> 
 	Template utilizado: <a href="https://demos.creative-tim.com/nextjs-material-kit/components" >🔗 by Creative Tim </a>
