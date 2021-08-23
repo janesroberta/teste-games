@@ -51,8 +51,8 @@ export default function games({ item }) {
                             tabIcon: DescriptionIcon,
                             tabContent: (
                                 <div>
-                                    <h4 style={{ textAlign: "center" }} >{item.title}</h4>
                                     <img src={item.thumbnail} style={{ width: "100%" }} ></img>
+                                    <h4 style={{ textAlign: "center" }} >{item.title}</h4>
                                     <div className={classes.typo}><br />
                                         <div className={classes.note}><b>Description</b></div>
                                         <Quote
@@ -92,7 +92,8 @@ export default function games({ item }) {
                             tabIcon: StarHalfIcon,
                             tabContent: (
                                 <>
-                                <div style={{textAlign: "center"}}>Rating<br />
+                                <div style={{textAlign: "center"}}>
+                                <img src={item.thumbnail} style={{ width: "100%" }} ></img><br /><br />
                                     <StarRatings
                                         rating={localStorage.getItem(item.title) | 0}
                                         starRatedColor="blue"
@@ -101,7 +102,7 @@ export default function games({ item }) {
                                         starDimension="30px"
                                         starSpacing="6px"
                                         name='rating'
-                                    />
+                                    /><br /><br />Rating
                                 </div><br />
                                     <InputLabel id="label">Me</InputLabel>
                                     <Select
@@ -123,7 +124,8 @@ export default function games({ item }) {
                             tabName: "",
                             tabIcon: GetAppIcon,
                             tabContent: (
-                                <div >
+                                <div style={{textAlign: "center"}} >
+                                <img src={item.thumbnail} style={{ width: "100%" }} ></img><br /><br />
                                     <Link href={item.game_url}>
                                         <Button className={classes.navLink} color="primary">Download<GetAppIcon className={classes.icons} /></Button>
                                     </Link>
